@@ -1,0 +1,106 @@
+<!DOCTYPE HTML>
+
+<html lang="ko">
+	<head>
+		<title>GPT-Dungeon</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+			<div id="wrapper">
+
+					<nav id="nav">
+						<a href="#" class="fas fa-home"><span>Home</span></a>
+						<a href="https://github.com/rkawkclzls/GPT-Dungeon" class="fa-brands fa-github" style="color: #000000"><span>Easter_Egg</span></a>
+						<a href="#Select" class="fa-solid fa-dungeon"><span>Select</span></a>
+					</nav>
+
+					<div id="main">
+
+							<article id="home" class="panel intro">
+								<header>
+									<h1>GPT-Dungeon</h1>
+									<p>당신의 모험이 시작됩니다<br>
+									<p>시작하시려면 당신을 <strong>클릭</strong>하세요</p>
+
+									
+								</header>
+								<a href="#Select" class="jumplink pic">
+									<span class="arrow icon fa-solid fa-chevron-right"><span>See my portrait</span></span>
+									<img src="images/me.jpg" alt="용사" />
+								</a>
+							</article>
+
+							<article id="Select" class="panel">
+								<header>
+									<h2>Select</h2>
+								</header>
+								<p>
+									진입하고 싶은 던전을 클릭하세요!
+								</p>
+								<section>
+									<div class="row">
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Light.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Corrupt buddhism.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Ancient egypt.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Grave.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Funny.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Insane.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Lake.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/SF.jpg" alt=""></a>
+										</div>
+										<div class="col-4 col-6-medium col-12-small">
+											<a href="#Dungeon" class="image fit"><img src="images/Volcano.jpg" alt=""></a>
+										
+									</div>
+								</section>
+							</article>
+
+							<article id="Dungeon" class="panel">
+								<form action="#" method="post">
+									<div>
+										<div class="row">
+											
+											<div class="col-12">
+												<textarea name="dungeon-master" style="height: 300px;" placeholder="던전 입구입니다. 들어가시겠습니까?"></textarea>
+											</div>
+											<div class="col-6 col-12-medium">
+												<input type="text" name="message" placeholder="여기에 메세지 입력" rows="6" />
+											</div>
+											<div class="col-12-medium">
+												<button type="button" id="send-message-btn">결정</button>
+
+											</div>
+										</div>
+									</div>
+								</form>
+							</article>
+
+					</div>
+			</div>
+			
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://kit.fontawesome.com/82e55af5ef.js" crossorigin="anonymous"></script>
+			<script src="assets/js/gpt.js"></script>
+
+	</body>
+</html>
