@@ -13,7 +13,7 @@ GPT-Dungeon은 사용자가 대화형 인터페이스를 통해 다양한 가상
 
 ## 사용 방법
 
-1. **웹사이트 접속:** [GPT-Dungeon GitHub 페이지](https://github.com/rkawkclzls/gpt-dungeon)에 접속합니다.
+1. **웹사이트 접속:** [GPT-Dungeon GitHub 페이지](https://rkawkclzls.github.io/Gpt-Dungeon-final/)에 접속합니다.
 2. **던전 선택:** 제공되는 던전 이미지 중 하나를 선택하여 탐험을 시작합니다.
 3. **대화 진행:** GPT-Dungeon과의 대화를 통해 스토리를 진행시킵니다. 선택지를 선택하거나 질문에 답하여 던전을 탐험하세요.
 
